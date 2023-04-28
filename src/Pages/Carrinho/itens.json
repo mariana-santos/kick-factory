@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "titulo": "Bola de Futebol de Campo",
+        "preco": 99,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "futebol",
+        "imagem:": "bola.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Bola de Futebol de Campo",
+        "preco": 99,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "futebol"
+    },
+    {
+        "id": 3,
+        "titulo": "Bola de Futebol de Campo",
+        "preco": 99,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "futebol"
+    },
+    {
+        "id": 4,
+        "titulo": "Bola de Futebol de Campo",
+        "preco": 99,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "futebol"
+    },
+    {
+        "id": 5,
+        "titulo": "Bola de Futebol de Campo",
+        "preco": 99,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "futebol"
+    }
+]

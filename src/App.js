@@ -1,60 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
-import Header from './Components/Header';
-import Card from './Components/Card';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Home from './Pages/Home';
+import Carrinho from './Pages/Carrinho'
 
 function App() {
   return (
-    <div>
-      <Header />
-
-      <div className='container'>
-
-        <Futebol />
-
-      </div>
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={ <Home /> } />
+        <Route path='/carrinho' element={ <Carrinho /> } />
+      </Routes>
+    </BrowserRouter>
+    
   );
-}
-
-function Futebol(){
-  return(
-    <>
-      <h2>Itens de Futebol</h2>
-
-      <section className='row'>
-        <Card 
-          imagem=""
-          titulo="Bola de Futebol de Campo"
-          preco={99}
-          desconto={0.15}
-        />
-
-        <Card 
-          imagem=""
-          titulo="Bola de Futebol de Campo"
-          preco={99}
-          desconto={0.15}
-        />
-
-        <Card 
-          imagem=""
-          titulo="Bola de Futebol de Campo"
-          preco={99}
-          desconto={0.15}
-        />
-
-        <Card 
-          imagem=""
-          titulo="Bola de Futebol de Campo"
-          preco={99}
-          desconto={0.15}
-        />
-      </section>
-    </>
-  )
 }
 
 export default App;

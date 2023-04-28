@@ -1,0 +1,51 @@
+#carrinho{
+    display: flex;
+    gap: 3em
+}
+
+#itens, #resumo{
+    width: 50%;
+}
+
+.item .button{
+    display: inline-block;
+    width: min-content;
+    padding: 3px 8px;
+}
+
+.item .button:nth-child(1){
+    margin-right: 1em;
+}
+
+.item .button:nth-child(2){
+    margin-left: 1em;
+}
+
+.qtd{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    color: #ccc;
+    margin-bottom: 1.5em;
+    background: #2F2E2F;
+    padding: 1.5em;
+}
+
+.item h3{
+    margin-top: 0;
+}
+
+.item p{
+    margin: .5em 0;
+}
+
+.item p:last-child{
+    margin-bottom: 0;
+}
+
+.item p span{
+    opacity: .8;
+    font-size: .8em;
+}

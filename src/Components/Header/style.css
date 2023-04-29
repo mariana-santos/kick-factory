@@ -52,4 +52,8 @@ nav ul li:hover{
     nav ul li{
         font-size: 1.3em;
     }
+
+    #logo{
+        font-size: .8em;
+    }
 }

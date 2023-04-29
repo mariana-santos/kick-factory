@@ -1,16 +1,30 @@
 #carrinho{
     display: flex;
-    gap: 3em
+    gap: 3em;
+    overflow: auto;
 }
 
-#itens, #resumo{
-    width: 50%;
+#itens{
+    width: 70%;
+}
+
+#resumo{
+    width: fit-content;
+    color: #ccc
+}
+
+#resumo .button{
+    margin-top: 3em;
 }
 
 .item .button{
     display: inline-block;
     width: min-content;
     padding: 3px 8px;
+}
+
+.button{
+    text-align: center;
 }
 
 .item .button:nth-child(1){
@@ -31,21 +45,57 @@
     margin-bottom: 1.5em;
     background: #2F2E2F;
     padding: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 3em;
 }
 
 .item h3{
     margin-top: 0;
+    margin-bottom: .5em;
 }
 
-.item p{
+#carrinho p{
     margin: .5em 0;
 }
 
-.item p:last-child{
+#carrinho p:last-child{
     margin-bottom: 0;
 }
 
-.item p span{
+#carrinho p span{
     opacity: .8;
     font-size: .8em;
+}
+
+.img-item{
+    height: 100px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resumo{
+    align-self: flex-start;
+    justify-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 769px){
+    #carrinho, .item{
+        flex-wrap: wrap;
+    }
+
+    .item{
+        width: 100%;
+        box-sizing: border-box;
+        gap: 1em;
+    }
+
+    #itens{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

@@ -20,19 +20,29 @@ export default function Item({ item, onQtdChange }) {
         }
     };
 
+    const caminhoImagem = require(`../../../Img/${item.categoria}/${item.imagem}`)
+
     return (
         <div className="item">
-            <h3>{ item.titulo }</h3>
-            <p>
-                <span>Valor unitário: </span>
-                R$ { formatarDouble(valor) }
-            </p>
-            <p className="qtd">
-                <button className="button" onClick={() => handleQtdChange(qtd - 1)}> - </button>
-                Qtd.: { qtd }
-                <button className="button" onClick={() => handleQtdChange(qtd + 1)}> + </button>
-            </p>
-            <p><span>Subtotal:</span> R${ formatarDouble(subtotal) } </p>
+            <div className="img-item" style={{backgroundImage: `url(${caminhoImagem})`}}  alt={`Imagem de ${item.titulo}`} />
+            <div className="body-item">
+                <h3>{ item.titulo }</h3>
+                <p><span>Categoria:</span> { item.categoria } </p>
+                <p>
+                    <span>Valor unitário: </span>
+                    R$ { formatarDouble(valor) }
+                </p>
+            </div>
+
+            <div className="body-item">
+                <p className="qtd">
+                    <button className="button" onClick={() => handleQtdChange(qtd - 1)}> - </button>
+                    Qtd.: { qtd }
+                    <button className="button" onClick={() => handleQtdChange(qtd + 1)}> + </button>
+                </p>
+                <p><span>Subtotal:</span> R${ formatarDouble(subtotal) } </p>
+            </div>
+            
         </div>
     );
 }

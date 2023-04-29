@@ -7,7 +7,7 @@ import './style.css'
 
 export default function Carrinho(){
 
-    const [itens, setItens] = useState(itensData);
+    const [itens, setItens] = useState([itensData[0], itensData[4], itensData[8], itensData[12]]);
     const [subtotal, setSubTotal] = useState(0);
 
     const formatarDouble = (valor) => {
@@ -47,7 +47,17 @@ export default function Carrinho(){
 
                 <div id="resumo">
                     <h2>Resumo do pedido</h2>
-                    <p>Subtotal: { formatarDouble(subtotal) }</p>
+                    <h3>Pagamento </h3>
+                    <p><span>Total: </span> R$  { formatarDouble(subtotal) }</p>
+                    <p><span>Forma de pagamento: </span> Crédito Mastercard (2x) </p>
+                    <p><span>Cupom de desconto: </span> ABC123 </p>
+
+                    <h3>Dados de entrega</h3>
+                    <p><span>Endereço: </span> Av. Paulista, 1755 </p>
+                    <p><span>Frete: </span> R$ 7,99 </p>
+                    <p><span>Recebedor: </span> Wellington Cidade </p>
+
+                    <a href="" className="button">Finalizar Compra</a>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ import Cards from '../../Components/Cards';
 
 import { GiHighPunch, GiHighKick, GiRunningNinja } from 'react-icons/gi'
 import { RiFootballFill } from 'react-icons/ri'
+import Footer from '../../Components/Footer';
 
 export default function Home(){
     return(
@@ -18,6 +19,7 @@ export default function Home(){
 
             </div>
 
+            <Footer />
         </div>
     )
 }

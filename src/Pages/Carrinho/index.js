@@ -4,6 +4,7 @@ import Item from "./Item";
 
 import itensData from './itens.json';
 import './style.css'
+import Footer from "../../Components/Footer";
 
 export default function Carrinho(){
 
@@ -60,6 +61,8 @@ export default function Carrinho(){
                     <a href="" className="button">Finalizar Compra</a>
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }

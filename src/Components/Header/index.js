@@ -8,7 +8,7 @@ export default function Header(){
     return(
         <header>
             <div id='logo'>
-            <h1>Kick Factory</h1>
+            <a href='/'><h1>Kick Factory</h1></a>
             </div>
 
             <nav>

@@ -1,5 +1,8 @@
 import Header from '../../Components/Header';
-import Futebol from '../../Components/Futebol';
+import Cards from '../../Components/Cards';
+
+import { GiHighPunch, GiHighKick, GiRunningNinja } from 'react-icons/gi'
+import { RiFootballFill } from 'react-icons/ri'
 
 export default function Home(){
     return(
@@ -8,8 +11,10 @@ export default function Home(){
 
             <div className='container'>
 
-                <Futebol />
-                <Futebol />
+                <Cards categoria="futebol" icon={ <RiFootballFill /> } />
+                <Cards categoria="kick boxing" icon={ <GiHighKick /> } />
+                <Cards categoria="corrida" icon={ <GiRunningNinja /> } />
+                <Cards categoria="muay thai" icon={ <GiHighPunch /> } />
 
             </div>
 

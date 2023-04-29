@@ -4,10 +4,16 @@ body{
   margin: 0;
   font-family: 'Inter';
   background: #1c1b1b;
+  scroll-behavior: smooth;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .container{
   padding: 2.5em;
+  padding-top: 10em;
 }
 
 .row{
@@ -22,6 +28,8 @@ h2{
   align-items: center;
   justify-content: center;
   gap: .3em;
+  margin-top: 2em;
+  text-align: center;
 }
 
 h2:not(:first-of-type){
@@ -34,4 +42,32 @@ h2::after, h2::before{
   height: 4px;
   background: #2BD63C;
   display: inline-block;
+}
+
+@media screen and (max-width: 769px){
+  #logo{
+    width: 100%;
+  }
+
+  .row, header{
+    flex-wrap: wrap;
+  }
+
+  .container{
+    padding-top: 20em;
+  }
+
+  nav ul{
+    padding: 0;
+    justify-content: center;
+    padding-top: 1em;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  h2{
+    font-size: 2em;
+  }
 }

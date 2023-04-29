@@ -2,6 +2,15 @@ header{
     background: #2F2E2F;
     display: flex;
     padding: 2.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
 }
 
 #logo{
@@ -24,6 +33,7 @@ nav ul{
     /* justify-content: center; */
     margin: 0;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 nav ul li{
@@ -36,4 +46,10 @@ nav ul li{
 
 nav ul li:hover{
     color: #2bd63cb5;
+}
+
+@media screen and (max-width: 769px){
+    nav ul li{
+        font-size: 1.3em;
+    }
 }

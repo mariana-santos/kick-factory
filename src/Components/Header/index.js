@@ -15,23 +15,23 @@ export default function Header(){
                 <ul>
                     <li>
                         <RiFootballFill />
-                        <a>Futebol</a>
+                        <a href='/#futebol'>Futebol</a>
                     </li>
                     <li>
                         <GiHighKick />
-                        <a>Kick Boxing</a>
+                        <a href='/#kick boxing'>Kick Boxing</a>
                     </li>
                     <li>
                         <GiRunningNinja />
-                        <a>Atletismo</a>
+                        <a href='/#corrida'>Corrida</a>
                     </li>
                     <li>
                         <GiHighPunch />
-                        <a>Muay Thai</a>
+                        <a href='/#muay thai'>Muay Thai</a>
                     </li>
                     <li>
                         <HiShoppingCart />
-                        <a>Carrinho</a>
+                        <a href='/carrinho'>Carrinho</a>
                     </li>
                 </ul>
             </nav>

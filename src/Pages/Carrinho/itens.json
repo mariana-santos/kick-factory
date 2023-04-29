@@ -1,43 +1,146 @@
 [
     {
         "id": 1,
-        "titulo": "Bola de Futebol de Campo",
-        "preco": 99,
-        "desconto": 0.15,
+        "titulo": "Bola de campo",
+        "preco": 152,
+        "desconto": 0.1,
         "qtd": 1,
         "categoria": "futebol",
-        "imagem:": "bola.jpg"
+        "imagem": "bola.jpg"
     },
     {
         "id": 2,
-        "titulo": "Bola de Futebol de Campo",
-        "preco": 99,
-        "desconto": 0.15,
+        "titulo": "Camisa de Futebol",
+        "preco": 152,
+        "desconto": 0.1,
         "qtd": 1,
-        "categoria": "futebol"
+        "categoria": "futebol",
+        "imagem": "camisafutebol.jpeg"
     },
     {
         "id": 3,
-        "titulo": "Bola de Futebol de Campo",
-        "preco": 99,
-        "desconto": 0.15,
+        "titulo": "Camisa de Futebol v2",
+        "preco": 146,
+        "desconto": 0.5,
         "qtd": 1,
-        "categoria": "futebol"
+        "categoria": "futebol",
+        "imagem": "camisafutebol2.jpeg"
     },
     {
         "id": 4,
-        "titulo": "Bola de Futebol de Campo",
-        "preco": 99,
-        "desconto": 0.15,
+        "titulo": "Chuteira",
+        "preco": 165,
+        "desconto": 0.2,
         "qtd": 1,
-        "categoria": "futebol"
+        "categoria": "futebol",
+        "imagem": "chuteira3.jpeg"
     },
     {
         "id": 5,
-        "titulo": "Bola de Futebol de Campo",
-        "preco": 99,
+        "titulo": "Short",
+        "preco": 86,
+        "desconto": 0.5,
+        "qtd": 1,
+        "categoria": "kick boxing",
+        "imagem": "kick2.jpeg"
+    },
+    {
+        "id": 6,
+        "titulo": "Camisa",
+        "preco": 112,
         "desconto": 0.15,
         "qtd": 1,
-        "categoria": "futebol"
+        "categoria": "kick boxing",
+        "imagem": "kick3.jpeg"
+    },
+    {
+        "id": 7,
+        "titulo": "Pack de shorts",
+        "preco": 146,
+        "desconto": 0.5,
+        "qtd": 1,
+        "categoria": "kick boxing",
+        "imagem": "kick4.jpeg"
+    },
+    {
+        "id": 8,
+        "titulo": "Itens de luta",
+        "preco": 164,
+        "desconto": 0.2,
+        "qtd": 1,
+        "categoria": "kick boxing",
+        "imagem": "kick5.jpeg"
+    },
+    {
+        "id": 9,
+        "titulo": "Tênis de corrida",
+        "preco": 250,
+        "desconto": 0.3,
+        "qtd": 1,
+        "categoria": "corrida",
+        "imagem": "corrida2.jpeg"
+    },
+    {
+        "id": 10,
+        "titulo": "Kit de corrida",
+        "preco": 152,
+        "desconto": 0.1,
+        "qtd": 1,
+        "categoria": "corrida",
+        "imagem": "corrida4.jpeg"
+    },
+    {
+        "id": 11,
+        "titulo": "Camisa",
+        "preco": 106,
+        "desconto": 0.2,
+        "qtd": 1,
+        "categoria": "corrida",
+        "imagem": "corrida5.jpeg"
+    },
+    {
+        "id": 12,
+        "titulo": "Bermuda de corrida",
+        "preco": 65,
+        "desconto": 0.2,
+        "qtd": 1,
+        "categoria": "corrida",
+        "imagem": "corrida6.jpeg"
+    },
+    {
+        "id": 13,
+        "titulo": "Luva",
+        "preco": 165,
+        "desconto": 0.2,
+        "qtd": 1,
+        "categoria": "muay thai",
+        "imagem": "muay1.jpeg"
+    },
+    {
+        "id": 14,
+        "titulo": "Luva v2",
+        "preco": 136,
+        "desconto": 0.1,
+        "qtd": 1,
+        "categoria": "muay thai",
+        "imagem": "muay2.jpeg"
+    },
+    {
+        "id": 15,
+        "titulo": "Kit de luta",
+        "preco": 213,
+        "desconto": 0.15,
+        "qtd": 1,
+        "categoria": "muay thai",
+        "imagem": "muay3.jpeg"
+    },
+    {
+        "id": 16,
+        "titulo": "Bermuda de luta",
+        "preco": 70,
+        "desconto": 0.3,
+        "qtd": 1,
+        "categoria": "muay thai",
+        "imagem": "muay6.jpeg"
     }
 ]

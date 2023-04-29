@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './style.css'
 
 export default function Card(props){
-    const { titulo, preco, desconto, imagem } = props
+    const { titulo, preco, desconto, imagem, categoria } = props
 
     const formatarDouble = (valor) => {
         valor = valor.toFixed(2)
@@ -10,10 +10,12 @@ export default function Card(props){
         return(valor)
     }
 
+    const caminhoImagem = require(`../../Img/${categoria}/${imagem}`)
+
     return(
         <Link to='/carrinho'>
             <article className="card">
-                <img src={require('../../Img/bola.jpg')} alt={`Imagem de ${titulo}`} />
+                <div className='img-card' style={{backgroundImage: `url(${caminhoImagem})`}}  alt={`Imagem de ${titulo}`} />
                 <div className='body-card'>
                     <h3>{titulo}</h3>
                     <p>
